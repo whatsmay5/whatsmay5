@@ -20,20 +20,27 @@ nav {
 	margin: 0%;
 	z-index: 200;
 	text-align: right;
-	box-shadow: 2px 3px 5px #cfcfcf;	
+	font: 14px 'Roboto';
+	box-shadow: 1px 1px 1px #cfcfcf;	
+	transition: ease all .4s;
 }
+nav:hover {
+	box-shadow: 1px 1px 10px #cfcfcf;
+	transition: ease all .4s;	
+}
+
 .navbar-logo {
-	width: 5%;
 	float: left;
 	text-decoration: none;
-	font: 16px 'Roboto';
 	color: #000;
+}
+.navbar-item .contact {
+	border: 2px solid black;
 }
 
 .navbar-item {
 	padding: 2%;
 	text-decoration: none;
-	font: 14px 'Roboto';
 	color: #000;
 	transition: ease all .4s;
 }
@@ -48,10 +55,35 @@ nav {
  ***************************/
  .main-body {
 	z-index: 10;
+	height: auto;
+	width: 100%;
+	font: 14px 'Roboto';
+	text-align: center;
  }
- .header-container, .header {
-	padding: 1%;
-	text-align: center;	
-	font: 36px 'Roboto';
+ 
+ button {
+	border: 2px solid black;
+	padding: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
+	background-color: #fff;
+	margin: 3%;
+	transition: ease all .4s;
+ }
+ 
+ button:hover {
+	border: 2px solid red;
+	transition: ease all .4s;
+ }
+ .header {
+	font: 32px 'Roboto';
+	text-align: center;
+ }
+.centered {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
  }
 
