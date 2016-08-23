@@ -2,7 +2,7 @@
  * Color Pallette with all light colors
 
  **************************/
-
+@import 'https://fonts.googleapis.com/css?family=Roboto';
 
 * {
 	padding: 0;
@@ -14,29 +14,32 @@
  ***************************/
  
 nav {
-	width: 95%;
+	width: 96%;
 	padding: 2%;
 	margin: 1%;
 	margin: 0%;
 	z-index: 200;
 	text-align: right;
-	box-shadow: 2px 3px 5px #f0f0f0;	
+	box-shadow: 2px 3px 5px #cfcfcf;	
 }
 .navbar-logo {
-	text-decoration: none;
+	width: 5%;
 	float: left;
+	text-decoration: none;
+	font: 16px 'Roboto';
 	color: #000;
 }
 
 .navbar-item {
 	padding: 2%;
 	text-decoration: none;
+	font: 14px 'Roboto';
 	color: #000;
-	transition: ease all .3s;
+	transition: ease all .4s;
 }
 .navbar-item:hover {
-	background-color: #F0f0F0;
-	transition: ease all .3s;
+	color: red;
+	transition: ease all .4s;
 }
 
 
@@ -48,6 +51,7 @@ nav {
  }
  .header-container, .header {
 	padding: 1%;
-	text-align: center;
+	text-align: center;	
+	font: 36px 'Roboto';
  }
 
