@@ -5,7 +5,26 @@
  * Grey: CFCFCF
  * Pale Blue: 144955
  **************************/
-@import 'https://fonts.googleapis.com/css?family=Maven+Pro|Dancing+Script|Indie+Flower';
+/*@import 'https://fonts.googleapis.com/css?family=Maven+Pro|Dancing+Script|Indie+Flower';*/
+@font-face {
+	font-family: 'Nexa Light';
+	src: url(../fonts/nexa_light.otf) format('opentype');
+	}
+@font-face {
+	font-family: 'Nexa Bold';
+	font-style: bold;
+	src: url(../fonts/nexa_bold.otf) format('opentype');
+}
+@font-face {
+	font-family: "flaticon";
+	src: url("../fonts/flaticon/flaticon.eot");
+	src: url("../fonts/flaticon/flaticon.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/flaticon/flaticon.woff2") format("woff2"),
+	url("../fonts/flaticon/flaticon.ttf") format("truetype"),
+	url("../fonts/flaticon/flaticon.svg#flaticon") format("svg");
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
 
 * {
 	padding: 0;
@@ -22,8 +41,9 @@ nav {
 	margin: 1%;
 	margin: 0%;
 	z-index: 200;
+	background: #fff;
 	text-align: right;
-	font: 14px 'Maven Pro';
+	font: 14px 'Nexa Light';
 	box-shadow: 1px 1px 1px #CFCFCF;	
 	transition: ease all .4s;
 }
@@ -35,6 +55,7 @@ nav:hover {
 .navbar-logo {
 	float: left;
 	text-decoration: none;
+	font: 16px 'Nexa Bold';
 	color: #000;
 }
 .navbar-item .contact {
@@ -43,6 +64,7 @@ nav:hover {
 
 .navbar-item {
 	padding: 2%;
+	display: inline;
 	text-decoration: none;
 	color: #000;
 	transition: ease all .4s;
@@ -56,36 +78,44 @@ nav:hover {
 /***************************
  * Body Styling
 ***************************/
- .main-body {
-	z-index: 10;
+ body {
+	z-index: 1;
 	height: auto;
 	width: 100%;
-	font: 14px 'Maven Pro';
+	font-family: 'Nexa' ;
 	text-align: center;
+
  }
  
  button {
-	border: 2px solid black;
+	border: 1px solid #CFCFCF;
+	background-color: #FFFFFF;
+	font: 16px 'Nexa Light';
+	
 	padding: 2%;
 	padding-left: 4%;
 	padding-right: 4%;
-	background-color: #fff;
 	margin: 3%;
-	border-radius: 50px;
-	border-bottom-right-radius: 90%;
-	border-top-left-radius: 90%;
+	margin-top: 5%;
 	min-width: 180px;
-	font: 14px 'Indie Flower';
+	
+	border-bottom-right-radius: 50px;
+	border-top-left-radius: 50px;
 	transition: ease all .4s;
  }
  
  button:hover {
-	border: 2px solid #F14C38;
+	box-shadow: 1px 1px 10px #CFCFCF;
 	transition: ease all .4s;
  }
 
+.icon {
+	font:14px "flaticon";
+	margin: 5px;
+}
+
 .header {
-	font: 40px 'Indie Flower';
+	font: 40px 'Nexa Bold';
 	text-align: center;
  }
 .centered {
