@@ -118,7 +118,7 @@ nav:hover {
 		text-align: center;
 		color: #144955;
 	 }
-	 .header h1:hover {
+	 .header:hover {
 	 	color: #000000;
 	 }
 	.centered {
@@ -136,7 +136,7 @@ nav:hover {
 		text-align: center;
 		color: #144955;
 	 }
-	 .header h1:hover {
+	 .header:hover {
 	 	color: #000000;
 	 }
 }
