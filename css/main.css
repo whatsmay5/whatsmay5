@@ -116,7 +116,7 @@ nav:hover {
 	.header {
 		font: 40px 'Nexa Bold';
 		text-align: center;
-		color: #144955;
+		color: red;
 	 }
 	 .header:hover {
 	 	color: #000000;
