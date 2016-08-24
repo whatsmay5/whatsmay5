@@ -2,10 +2,10 @@
  * Color Pallette with all light colors
  * Red: F14C38
  * White: FFFFFF
- * Grey: F4F1E0
+ * Grey: CFCFCF
  * Pale Blue: 144955
  **************************/
-@import 'https://fonts.googleapis.com/css?family=Roboto|Dancing+Script|Indie+Flower';
+@import 'https://fonts.googleapis.com/css?family=Maven+Pro|Dancing+Script';
 
 * {
 	padding: 0;
@@ -23,12 +23,12 @@ nav {
 	margin: 0%;
 	z-index: 200;
 	text-align: right;
-	font: 12px 'Roboto';
-	box-shadow: 1px 1px 1px #F4F1E0;	
+	font: 14px 'Maven Pro';
+	box-shadow: 1px 1px 1px #CFCFCF;	
 	transition: ease all .4s;
 }
 nav:hover {
-	box-shadow: 1px 1px 10px #F4F1E0;
+	box-shadow: 1px 1px 10px #CFCFCF;
 	transition: ease all .4s;	
 }
 
@@ -60,7 +60,7 @@ nav:hover {
 	z-index: 10;
 	height: auto;
 	width: 100%;
-	font: 14px 'Indie Flower';
+	font: 14px 'Maven Pro';
 	text-align: center;
  }
  
@@ -71,9 +71,11 @@ nav:hover {
 	padding-right: 4%;
 	background-color: #fff;
 	margin: 3%;
-	font: 14px 'Roboto';
-	border-top-left-radius: 50px;
-	border-bottom-right-radius: 50px;
+	border-radius: 50px;
+	border-bottom-right-radius: 90%;
+	border-top-left-radius: 90%;
+	min-width: 180px;
+	font: 14px 'Maven Pro';
 	transition: ease all .4s;
  }
  
