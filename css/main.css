@@ -5,7 +5,7 @@
  * Grey: CFCFCF
  * Pale Blue: 144955
  **************************/
-@import 'https://fonts.googleapis.com/css?family=Maven+Pro|Dancing+Script';
+@import 'https://fonts.googleapis.com/css?family=Maven+Pro|Dancing+Script|Indie+Flower';
 
 * {
 	padding: 0;
@@ -75,7 +75,7 @@ nav:hover {
 	border-bottom-right-radius: 90%;
 	border-top-left-radius: 90%;
 	min-width: 180px;
-	font: 14px 'Maven Pro';
+	font: 14px 'Indie Flower';
 	transition: ease all .4s;
  }
  
@@ -84,9 +84,8 @@ nav:hover {
 	transition: ease all .4s;
  }
 
-
 .header {
-	font: 32px 'Dancing Script';
+	font: 40px 'Indie Flower';
 	text-align: center;
  }
 .centered {
