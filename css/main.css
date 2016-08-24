@@ -3,6 +3,7 @@
 
  **************************/
 @import 'https://fonts.googleapis.com/css?family=Roboto';
+@import 'https://fonts.googleapis.com/css?family=Indie+Flower';
 
 * {
 	padding: 0;
@@ -52,7 +53,7 @@ nav:hover {
 
 /***************************
  * Body Styling
- ***************************/
+***************************/
  .main-body {
 	z-index: 10;
 	height: auto;
@@ -68,6 +69,8 @@ nav:hover {
 	padding-right: 5%;
 	background-color: #fff;
 	margin: 3%;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
 	transition: ease all .4s;
  }
  
@@ -76,7 +79,7 @@ nav:hover {
 	transition: ease all .4s;
  }
  .header {
-	font: 32px 'Roboto';
+	font: 32px 'Indie Flower';
 	text-align: center;
  }
 .centered {
