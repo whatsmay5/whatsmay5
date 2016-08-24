@@ -85,23 +85,14 @@ nav:hover {
  }
 
 
-@media all and (min-width: 490px) {
-	 .header {
-		font: 32px 'Dancing Script';
-		text-align: center;
-	 }
-	.centered {
-		position: absolute;
-		width: 100%;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-	}
-}
-@media all and (max-width: 490px) {
-	 .header {
-		margin-top: 10%;
-		font: 32px 'Dancing Script';
-		text-align: center;
-	 }
+.header {
+	font: 32px 'Dancing Script';
+	text-align: center;
+ }
+.centered {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
