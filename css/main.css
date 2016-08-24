@@ -116,10 +116,12 @@ nav:hover {
 	.header {
 		font: 40px 'Nexa Bold';
 		text-align: center;
-		color: red;
+		color: #14495;
+		transition: ease all .4s;
 	 }
 	 .header:hover {
 	 	color: #000000;
+	 	transition: ease all .4s;
 	 }
 	.centered {
 		position: absolute;
@@ -135,8 +137,10 @@ nav:hover {
 		font: 40px 'Nexa Bold';
 		text-align: center;
 		color: #144955;
+		transition: ease all .4s;
 	 }
 	 .header:hover {
 	 	color: #000000;
+	 	transition: ease all .4s;
 	 }
 }
