@@ -118,6 +118,9 @@ nav:hover {
 		font: 40px 'Nexa Bold';
 		text-align: center;
 	 }
+	 .header h1:hover {
+	 	color: #144955;
+	 }
 	.centered {
 		position: absolute;
 		width: 100%;
@@ -131,5 +134,8 @@ nav:hover {
 		margin-top: 15%;
 		font: 40px 'Nexa Bold';
 		text-align: center;
+	 }
+	 .header h1:hover {
+	 	color: #144955;
 	 }
 }
