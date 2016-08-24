@@ -1,9 +1,11 @@
 /***************************
  * Color Pallette with all light colors
-
+ * Red: F14C38
+ * White: FFFFFF
+ * Grey: F4F1E0
+ * Pale Blue: 144955
  **************************/
-@import 'https://fonts.googleapis.com/css?family=Roboto';
-@import 'https://fonts.googleapis.com/css?family=Indie+Flower';
+@import 'https://fonts.googleapis.com/css?family=Roboto|Dancing+Script|Indie+Flower';
 
 * {
 	padding: 0;
@@ -21,12 +23,12 @@ nav {
 	margin: 0%;
 	z-index: 200;
 	text-align: right;
-	font: 14px 'Roboto';
-	box-shadow: 1px 1px 1px #cfcfcf;	
+	font: 12px 'Roboto';
+	box-shadow: 1px 1px 1px #F4F1E0;	
 	transition: ease all .4s;
 }
 nav:hover {
-	box-shadow: 1px 1px 10px #cfcfcf;
+	box-shadow: 1px 1px 10px #F4F1E0;
 	transition: ease all .4s;	
 }
 
@@ -46,7 +48,7 @@ nav:hover {
 	transition: ease all .4s;
 }
 .navbar-item:hover {
-	color: red;
+	color: #F14C38;
 	transition: ease all .4s;
 }
 
@@ -58,28 +60,29 @@ nav:hover {
 	z-index: 10;
 	height: auto;
 	width: 100%;
-	font: 14px 'Roboto';
+	font: 14px 'Indie Flower';
 	text-align: center;
  }
  
  button {
 	border: 2px solid black;
 	padding: 2%;
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-left: 4%;
+	padding-right: 4%;
 	background-color: #fff;
 	margin: 3%;
-	border-top-right-radius: 50px;
-	border-bottom-left-radius: 50px;
+	font: 14px 'Roboto';
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
 	transition: ease all .4s;
  }
  
  button:hover {
-	border: 2px solid red;
+	border: 2px solid #F14C38;
 	transition: ease all .4s;
  }
  .header {
-	font: 32px 'Indie Flower';
+	font: 32px 'Dancing Script';
 	text-align: center;
  }
 .centered {
