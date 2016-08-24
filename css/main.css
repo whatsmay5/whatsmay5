@@ -114,14 +114,23 @@ nav:hover {
 	margin-right: 1%;
 }
 
-.header {
-	font: 40px 'Nexa Bold';
-	text-align: center;
- }
-.centered {
-	position: absolute;
-	width: 100%;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+@media all and (min-width: 481px) {
+	.header {
+		font: 40px 'Nexa Bold';
+		text-align: center;
+	 }
+	.centered {
+		position: absolute;
+		width: 100%;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+}
+@media all and (max-width: 480px) {
+	.header {
+		margin-top: 15%;
+		font: 40px 'Nexa Bold';
+		text-align: center;
+	 }
 }
