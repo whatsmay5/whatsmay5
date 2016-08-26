@@ -29,6 +29,11 @@
 * {
 	padding: 0;
 	margin: 0;
+	outline:none; /*Removes the focus outline and makes elements cleaner looking after a click */
+	
+}
+*:focus {
+	
 }
 
 /***************************
@@ -37,14 +42,16 @@
  
 nav {
 	width: 96%;
+	position: absolute;
+	top:0;
 	padding: 2%;
 	margin: 1%;
 	margin: 0%;
-	z-index: 200;
+	z-index: 100;
 	background: #fff;
 	text-align: right;
 	font: 14px 'Nexa Light';
-	box-shadow: 1px 1px 1px #CFCFCF;	
+	box-shadow: 1px 1px 3px #CFCFCF;	
 	transition: ease all .4s;
 }
 nav:hover {
@@ -69,6 +76,10 @@ nav:hover {
 	color: #000;
 	transition: ease all .4s;
 }
+.selected {
+	color: #F14C38;
+	border-top: 4px solid #F14C38;
+}
 .navbar-item:hover {
 	color: #F14C38;
 	transition: ease all .4s;
@@ -81,13 +92,17 @@ nav:hover {
  body {
 	z-index: 1;
 	height: auto;
+	background-color: #FFFFFC;
 	width: 100%;
 	font-family: 'Nexa' ;
 	text-align: center;
 
  }
- 
- button {
+ .subtitle {
+	font: 20px 'Nexa Light';
+	margin-top: 4%;
+}
+ .regular-button {
 	border: 1px solid #CFCFCF;
 	background-color: #FFFFFF;
 	font: 16px 'Nexa Light';
@@ -98,21 +113,40 @@ nav:hover {
 	margin: 3%;
 	margin-top: 5%;
 	min-width: 250px;
+	min-height: 50px;
 	border-bottom-right-radius: 50px;
 	border-top-left-radius: 50px;
 	transition: ease all .4s;
  }
  
- button:hover {
+ .regular-button:hover {
 	box-shadow: 1px 1px 10px #CFCFCF;
 	transition: ease all .4s;
  }
 
 .icon {
-	font: 18px "flaticon";
+	font-family: "flaticon";
 	margin-right: 1%;
 }
+.float-button {
+	border-radius: 50px;
+	border:none;
+	padding: 15px;
+	background-color: #d84432;
+	color: #FFFFFF;
+	font-size: 20px;
+	transition: ease all .4s;
+}
 
+.float-button:hover {
+	transition: ease all .4s;
+	background-color: #F14C38;
+}
+.floating-contact-button {
+	position: fixed;
+	bottom: 5%;
+	right: 3%;
+}
 @media all and (min-width: 481px) {
 	.header {
 		font: 40px 'Nexa Bold';
