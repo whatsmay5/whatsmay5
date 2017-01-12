@@ -49,7 +49,6 @@ nav {
 	z-index: 100;
 	background: #fff;
 	text-align: right;
-	max-height: 20px;
 	font: 14px 'Nexa Light';
 	box-shadow: 1px 1px 3px #CFCFCF;	
 	transition: ease all .4s;
