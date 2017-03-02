@@ -155,9 +155,18 @@ nav:hover {
 		text-align: center;
 	 }
 
-	.centered {
+	.left-aligned {
 		position: absolute;
-		width: 100%;
+		left: 0;
+		width: 50%;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.right-aligned {
+		position: absolute;
+		right: 0;
+		width: 50%;
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
